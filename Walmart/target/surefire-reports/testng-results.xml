@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="10645" started-at="2020-04-06T18:20:15Z" finished-at="2020-04-06T18:20:25Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="10645" started-at="2020-04-06T18:20:15Z" finished-at="2020-04-06T18:20:25Z">
+      <class name="integrationTest.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:integrationTest.HomePageTest@3fb6a447]" name="setup" is-config="true" duration-ms="4927" started-at="2020-04-06T18:20:15Z" finished-at="2020-04-06T18:20:20Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:integrationTest.HomePageTest@3fb6a447]" name="init" is-config="true" duration-ms="26" started-at="2020-04-06T18:20:20Z" finished-at="2020-04-06T18:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setCognizantTest()[pri:0, instance:integrationTest.HomePageTest@3fb6a447]" name="setCognizantTest" duration-ms="2488" started-at="2020-04-06T18:20:20Z" finished-at="2020-04-06T18:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCognizantTest -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:integrationTest.HomePageTest@3fb6a447]" name="Quit" is-config="true" duration-ms="170" started-at="2020-04-06T18:20:22Z" finished-at="2020-04-06T18:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method status="PASS" signature="sleep()[pri:0, instance:integrationTest.HomePageTest@3fb6a447]" name="sleep" is-config="true" duration-ms="3002" started-at="2020-04-06T18:20:22Z" finished-at="2020-04-06T18:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sleep -->
+      </class> <!-- integrationTest.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

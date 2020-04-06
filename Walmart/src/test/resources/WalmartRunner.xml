@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Costco Automation Script " parallel="methods" thread-count="1">
+
+<!--    <parameter name="platform" value="mac"/>-->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.cognizant.com"/>
+    <!--<parameter name="url" value="https://jqueryui.com/droppable/"/>-->
+
+
+    <test name="Walmart Project">
+        <classes>
+
+
+                    <class name="integrationTest.HomePageTest"/>
+
+
+
+
+        </classes>
+    </test>
+</suite>
